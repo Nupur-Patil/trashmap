@@ -1,3 +1,15 @@
+# ------------------------------------
+# 1. Data
+# ------------------------------------
+# Data (since files are too large)
+data/raw/*
+data/processed/*csv
+!data/raw/.gitkeep      
+!data/processed/.gitkeep 
+
+# ------------------------------------
+# 2. Python Environment
+# ------------------------------------
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
